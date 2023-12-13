@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MobileLegendHeroList" parent="Base.Theme.MobileLegendHeroList" />
+    <style name="Base.Theme.MobileLegendHeroList" parent="Theme.Material3.DayNight">
+        <!-- Primary color. -->
+        <item name="colorPrimary">@color/blue_300</item>
+        <item name="colorPrimaryVariant">@color/blue_500</item>
+        <item name="colorOnPrimary">@color/blue_700</item>
+
+        <!-- Secondary color. -->
+        <item name="colorSecondary">@color/aqua_600</item>
+        <item name="colorSecondaryVariant">@color/aqua_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/aqua_600</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorLink">@color/link</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="heading">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="heading2">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="normal">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="skill">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="content">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+</resources>

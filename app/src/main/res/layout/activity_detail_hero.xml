@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_hero_names"
+            style="@style/heading2"
+            android:layout_height="20dp"
+            android:layout_marginTop="56dp"
+            android:text="@string/heroes_name"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/img_hero"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_hero_description"
+            style="@style/content"
+            android:layout_height="18dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="76dp"
+            android:text="@string/description"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_hero_names" />
+
+        <TextView
+            android:id="@+id/tv_skill_description"
+            style="@style/normal"
+            android:layout_width="55dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="103dp"
+            android:text="@string/skill"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.57"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_skillA"
+            style="@style/skill"
+            android:layout_width="150dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/skill_a"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.777"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_skill_description" />
+
+        <TextView
+            android:id="@+id/tv_skillC"
+            style="@style/skill"
+            android:layout_width="150dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/skill_c"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.777"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_skillB" />
+
+        <TextView
+            android:id="@+id/tv_skillB"
+            style="@style/skill"
+            android:layout_width="150dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/skill_b"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.777"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_skillA" />
+
+        <ImageView
+            android:id="@+id/img_hero"
+            android:layout_width="180dp"
+            android:layout_height="171dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="219dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_hero_detail"
+            style="@style/normal"
+            android:layout_width="356dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/lore"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.472"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_skillC"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
